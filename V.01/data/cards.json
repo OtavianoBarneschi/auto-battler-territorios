@@ -1,0 +1,200 @@
+[
+  {
+    "id": "recruta",
+    "nome": "Recruta",
+    "atk": 2,
+    "hp": 3,
+    "custo": 1,
+    "raridade": "comum",
+    "arte": "assets/cartas/recruta.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "escudeira",
+    "nome": "Escudeira",
+    "atk": 1,
+    "hp": 6,
+    "custo": 1,
+    "raridade": "comum",
+    "arte": "assets/cartas/escudeira.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "batedor",
+    "nome": "Batedor",
+    "atk": 3,
+    "hp": 2,
+    "custo": 1,
+    "raridade": "comum",
+    "arte": "assets/cartas/batedor.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "brutamontes",
+    "nome": "Brutamontes",
+    "atk": 4,
+    "hp": 4,
+    "custo": 2,
+    "raridade": "comum",
+    "arte": "assets/cartas/brutamontes.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "curandeira",
+    "nome": "Curandeira",
+    "atk": 1,
+    "hp": 4,
+    "custo": 1,
+    "raridade": "comum",
+    "arte": "assets/cartas/curandeira.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "goblin",
+    "nome": "Goblin",
+    "atk": 2,
+    "hp": 2,
+    "custo": 1,
+    "raridade": "comum",
+    "arte": "assets/cartas/goblin.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "capitao",
+    "nome": "Capitão",
+    "atk": 3,
+    "hp": 5,
+    "custo": 2,
+    "raridade": "incomum",
+    "arte": "assets/cartas/capitao.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "espectro",
+    "nome": "Espectro",
+    "atk": 4,
+    "hp": 2,
+    "custo": 2,
+    "raridade": "incomum",
+    "arte": "assets/cartas/espectro.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "alquimista",
+    "nome": "Alquimista",
+    "atk": 2,
+    "hp": 5,
+    "custo": 2,
+    "raridade": "incomum",
+    "arte": "assets/cartas/alquimista.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "golem",
+    "nome": "Golem",
+    "atk": 2,
+    "hp": 9,
+    "custo": 3,
+    "raridade": "incomum",
+    "arte": "assets/cartas/golem.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "pirata",
+    "nome": "Pirata",
+    "atk": 5,
+    "hp": 3,
+    "custo": 2,
+    "raridade": "incomum",
+    "arte": "assets/cartas/pirata.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "aranha",
+    "nome": "Aranha",
+    "atk": 3,
+    "hp": 4,
+    "custo": 2,
+    "raridade": "incomum",
+    "arte": "assets/cartas/aranha.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "feiticeira",
+    "nome": "Feiticeira",
+    "atk": 5,
+    "hp": 3,
+    "custo": 3,
+    "raridade": "rara",
+    "arte": "assets/cartas/feiticeira.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "paladino",
+    "nome": "Paladino",
+    "atk": 4,
+    "hp": 7,
+    "custo": 3,
+    "raridade": "rara",
+    "arte": "assets/cartas/paladino.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "robo",
+    "nome": "Robô",
+    "atk": 5,
+    "hp": 6,
+    "custo": 3,
+    "raridade": "rara",
+    "arte": "assets/cartas/robo.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "dragao",
+    "nome": "Dragão",
+    "atk": 7,
+    "hp": 5,
+    "custo": 3,
+    "raridade": "rara",
+    "arte": "assets/cartas/dragao.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "ogro",
+    "nome": "Ogro",
+    "atk": 6,
+    "hp": 7,
+    "custo": 3,
+    "raridade": "rara",
+    "arte": "assets/cartas/ogro.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  },
+  {
+    "id": "fenix",
+    "nome": "Fênix",
+    "atk": 7,
+    "hp": 3,
+    "custo": 3,
+    "raridade": "rara",
+    "arte": "assets/cartas/fenix.svg",
+    "habilidade": null,
+    "status": "provisorio_original"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "versao_design": "V0.1",
+  "modo": "local_1v1",
+  "territorios": [
+    "A",
+    "B",
+    "C"
+  ],
+  "vidas_iniciais": 3,
+  "medalhas_para_vencer": 7,
+  "fase_1": "loja",
+  "fase_2": "colocacao_alternada",
+  "fase_3": "batalha_automatica",
+  "visibilidade_cartas_posicionadas": "publica",
+  "ordem_combate": "ordem_colocacao",
+  "dano": "simultaneo",
+  "hp_persiste_no_territorio": true,
+  "empate_territorio": "sem_sobreviventes",
+  "vitoria_rodada": "mais_territorios",
+  "empate_rodada": "mesma_quantidade_de_territorios",
+  "economia_provisoria": {
+    "moedas_por_rodada": 3,
+    "ofertas_na_loja": 3,
+    "custo_reroll": 1,
+    "cartas_iniciais": 6,
+    "observacao": "numeros apenas para demonstracao; nao sao regras aprovadas"
+  },
+  "habilidades_habilitadas": false
+}

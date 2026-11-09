@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420" viewBox="0 0 300 420">
+ <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#558C63"/><stop offset="1" stop-color="#254A37"/></linearGradient><linearGradient id="glow" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#C9EDA4" stop-opacity=".85"/><stop offset="1" stop-color="#C9EDA4" stop-opacity=".1"/></linearGradient></defs>
+ <rect x="3" y="3" width="294" height="414" rx="20" fill="#111D2B" stroke="#C9EDA4" stroke-width="5"/>
+ <rect x="11" y="11" width="278" height="268" rx="14" fill="url(#bg)"/>
+ <circle cx="150" cy="152" r="114" fill="url(#glow)" opacity=".34"/>
+ <path d="M25 243 L86 218 L130 235 L195 214 L276 246 V281 H25Z" fill="#254A37" opacity=".35"/>
+ <g opacity=".36"><circle cx="33" cy="65" r="3" fill="#C9EDA4"/><circle cx="265" cy="84" r="5" fill="#C9EDA4"/><circle cx="250" cy="190" r="3" fill="#C9EDA4"/></g>
+ <path d="M72 267 Q84 217 127 223 L176 223 Q216 218 228 267 V294 H72 Z" fill="#254A37" opacity=".85"/><ellipse cx="150" cy="158" rx="61" ry="64" fill="#558C63" stroke="#254A37" stroke-width="7"/><path d="M110 126 L58 108 L98 165 Z M190 126 L242 108 L202 165 Z" fill="#558C63" stroke="#254A37" stroke-width="7"/><ellipse cx="125" cy="169" rx="9" ry="12" fill="#254A37"/><ellipse cx="175" cy="169" rx="9" ry="12" fill="#254A37"/><path d="M139 190 Q150 197 161 190" fill="none" stroke="#254A37" stroke-width="5" stroke-linecap="round"/>
+ <rect x="18" y="18" width="78" height="26" rx="8" fill="#152536" opacity=".85"/><text x="57" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#FFF9EA">COMUM</text>
+ <rect x="210" y="18" width="72" height="26" rx="8" fill="#152536" opacity=".85"/><text x="246" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="13" fill="white">$1</text>
+ <rect x="13" y="277" width="274" height="129" rx="13" fill="#172436"/>
+ <text x="150" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">Goblin</text>
+ <text x="150" y="329" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#AFBFD0">Sem habilidade (protótipo)</text>
+ <rect x="28" y="342" width="112" height="51" rx="10" fill="#913E34"/><rect x="160" y="342" width="112" height="51" rx="10" fill="#3C7C72"/>
+ <text x="84" y="363" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F9D3CA">ATK</text><text x="84" y="386" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="white">2</text>
+ <text x="216" y="363" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#D3FAF0">HP</text><text x="216" y="386" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="white">2</text>
+ </svg>
