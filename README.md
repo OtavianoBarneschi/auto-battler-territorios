@@ -15,7 +15,7 @@ Abra `http://localhost:4173`. Para testar o motor: `npm test`.
 
 ## Publicação
 
-Cloudflare Pages: repositório GitHub `auto-battler-territorios`, branch de produção `main`, comando de build vazio, diretório de saída `V.01`. O projeto é apenas estático e não usa variáveis de ambiente. Em cada versão futura, mudar o diretório de saída para a nova pasta estável, depois validar o deploy.
+Jogue em [auto-battler-territorios.pages.dev](https://auto-battler-territorios.pages.dev). O Cloudflare Pages está conectado ao repositório GitHub, usa `main` como produção, comando de build vazio e diretório de saída `V.01`. O projeto é apenas estático e não usa variáveis de ambiente. Em cada versão futura, mudar o diretório de saída para a nova pasta estável, depois validar o deploy.
 
 Os SVGs incluídos no kit são proxies originais e provisórios. Os manuais de terceiros do ZIP de referência não fazem parte deste repositório nem da publicação.
 

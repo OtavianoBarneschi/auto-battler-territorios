@@ -17,4 +17,4 @@ Definir habilidades reais no Game Design e implementá-las nos quatro gatilhos: 
 - Modo 1x1 local no mesmo dispositivo; não há privacidade entre os turnos de compra.
 - Toque para posicionar funciona; arrastar usa HTML Drag and Drop, cuja disponibilidade varia em navegadores móveis.
 - Uma atualização da página reinicia a partida.
-- A revisão visual automatizada no navegador foi interrompida pela ferramenta; layout mobile e desktop requerem conferência manual antes da publicação estável.
+- A revisão visual automatizada no navegador foi interrompida pela ferramenta; layout mobile e desktop requerem conferência manual.

@@ -153,4 +153,3 @@ export function nextRound(state, cards, config, rng = Math.random) {
   state.result = null;
   return true;
 }
-

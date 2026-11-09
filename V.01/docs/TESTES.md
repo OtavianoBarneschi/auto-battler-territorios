@@ -20,7 +20,9 @@ Executar em `V.01/`: `npm test`.
 
 `node --check` passou para os módulos do motor e interface. Requisições HTTP locais ao HTML, JSON e SVG retornaram 200.
 
+O primeiro deploy de produção do Cloudflare Pages concluiu com status `success`. Requisições públicas sem autenticação a `https://auto-battler-territorios.pages.dev/`, `src/main.mjs`, `src/engine.mjs`, `data/cards.json` e `assets/cartas/recruta.svg` retornaram 200 com o conteúdo esperado.
+
 ## Ainda pendente
 
 - Revisão visual e interação completa no navegador em larguras mobile e 1920×1080. A ferramenta de navegador interrompeu a sessão por não conseguir verificar a URL ativa no Windows.
-- Verificação funcional pela URL pública após configuração do Cloudflare Pages.
+- Interação ponta a ponta no navegador pela URL pública. Os arquivos e dados foram verificados por HTTP; a execução visual do cliente ainda não pôde ser observada.

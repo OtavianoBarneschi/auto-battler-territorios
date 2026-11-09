@@ -8,3 +8,4 @@
 - Medalhas, vidas, empates e encerramento de partida.
 - Interface responsiva com toque, clique e arrastar; barramento vazio para futuras habilidades.
 - Testes automatizados do motor e documentação de auditoria.
+- Publicação no Cloudflare Pages com repositório GitHub conectado a `main`.
