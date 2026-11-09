@@ -6,7 +6,7 @@ Definir habilidades reais no Game Design e implementá-las nos quatro gatilhos: 
 
 ## Melhorias para avaliação
 
-- Validar visualmente em dispositivos mobile e desktop, inclusive legibilidade das cartas e arrastar em tela sensível ao toque.
+- Validar em aparelhos físicos o gesto de arrastar e a legibilidade em diferentes densidades de tela. O toque para posicionar e os layouts de 390×844 e 1920×1080 passaram na revisão remota.
 - Testar diversão e duração da partida com jogadores reais; ajustar economia provisória, custos e atributos.
 - Adicionar opção de acelerar/pular animação de batalha após testes de ritmo.
 - Salvar partida localmente se sessões longas se mostrarem comuns.
@@ -17,4 +17,4 @@ Definir habilidades reais no Game Design e implementá-las nos quatro gatilhos: 
 - Modo 1x1 local no mesmo dispositivo; não há privacidade entre os turnos de compra.
 - Toque para posicionar funciona; arrastar usa HTML Drag and Drop, cuja disponibilidade varia em navegadores móveis.
 - Uma atualização da página reinicia a partida.
-- A revisão visual automatizada no navegador foi interrompida pela ferramenta; layout mobile e desktop requerem conferência manual.
+- O arrastar em navegadores móveis físicos não foi verificado. O toque para posicionar foi verificado em navegador móvel remoto.

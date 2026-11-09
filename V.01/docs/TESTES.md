@@ -22,7 +22,8 @@ Executar em `V.01/`: `npm test`.
 
 O primeiro deploy de produção do Cloudflare Pages concluiu com status `success`. Requisições públicas sem autenticação a `https://auto-battler-territorios.pages.dev/`, `src/main.mjs`, `src/engine.mjs`, `data/cards.json` e `assets/cartas/recruta.svg` retornaram 200 com o conteúdo esperado.
 
+O deploy seguinte foi iniciado automaticamente por `github:push` em `main` e concluiu com status `success`. Pela URL pública, o Browser Rendering do Cloudflare renderizou e mostrou a tela inicial e a colocação em 1920×1080; em 390×844 mostrou tela inicial, loja, colocação, resultado e fim de jogo. Uma execução automatizada da interface comprou cartas, posicionou por toque/clique, resolveu três rodadas e terminou com X vencedor por reduzir as vidas de Y a zero. Cartas e atributos apareceram nas capturas.
+
 ## Ainda pendente
 
-- Revisão visual e interação completa no navegador em larguras mobile e 1920×1080. A ferramenta de navegador interrompeu a sessão por não conseguir verificar a URL ativa no Windows.
-- Interação ponta a ponta no navegador pela URL pública. Os arquivos e dados foram verificados por HTTP; a execução visual do cliente ainda não pôde ser observada.
+- Validação manual em aparelhos físicos e gesto de arrastar em navegadores móveis específicos. O caminho de toque/clique foi validado remotamente.
