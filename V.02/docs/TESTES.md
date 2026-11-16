@@ -24,7 +24,13 @@ Uma comparação independente com o texto do pedido encontrou **0 divergências*
 - Capturas headless do Edge revisadas nas telas de entrada, mercado, posicionamento, batalha e resultado em 1920 × 1080; também em janela móvel de 500 × 844.
 - As cartas, o marcador de desempate, os feedbacks de habilidade e o resultado ficaram legíveis nas capturas. A arte foi ajustada para caber inteira na área da carta.
 
+## Deploy público — 2026-11-15
+
+- Após o push do commit `f2dfada` ao `main`, `https://auto-battler-territorios.pages.dev/` respondeu 200 com o título “Duck and Robots — Auto Battler”.
+- O catálogo público `data/cards.json` respondeu 200 com 50 cartas, de Pato Cavaleiro a Rei da Sucata.
+- O módulo público `src/engine.mjs` respondeu 200 e contém `V.02`.
+- `assets/cartas/50_rei_da_sucata.png` respondeu 200 como `image/png`.
+
 ## Pendente
 
 - Interação por clique/toque em navegador e aparelho físico. A ferramenta de controle visual encerrou a sessão porque não conseguiu verificar com confiança a URL do Edge.
-- Verificação do deploy público após o envio ao `main`.

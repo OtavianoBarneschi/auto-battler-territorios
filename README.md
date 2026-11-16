@@ -1,13 +1,13 @@
-# Três Frentes — Auto Battler de Territórios
+# Duck and Robots
 
-Primeira versão jogável (V.01) de um duelo local 1x1 por três territórios. Código e site estático em [`V.01/`](V.01/).
+Versão estável atual: **V.02**. Duelo local 1×1 com 50 cartas, habilidades automáticas, três zonas e desempate pela Zona B. A versão anterior permanece em [`V.01/`](V.01/) para rollback.
 
 ## Rodar localmente
 
 Requer Node.js 22 ou superior. Sem instalação de dependências:
 
 ```sh
-cd V.01
+cd V.02
 npm start
 ```
 
@@ -15,8 +15,6 @@ Abra `http://localhost:4173`. Para testar o motor: `npm test`.
 
 ## Publicação
 
-Jogue em [auto-battler-territorios.pages.dev](https://auto-battler-territorios.pages.dev). O Cloudflare Pages está conectado ao repositório GitHub, usa `main` como produção, comando de build vazio e diretório de saída `V.01`. O projeto é apenas estático e não usa variáveis de ambiente. Em cada versão futura, mudar o diretório de saída para a nova pasta estável, depois validar o deploy.
+Jogue em [auto-battler-territorios.pages.dev](https://auto-battler-territorios.pages.dev). O Cloudflare Pages publica o `main` usando a configuração de [`wrangler.toml`](wrangler.toml), com saída em `V.02`. O jogo é estático e não usa variáveis de ambiente.
 
-Os SVGs incluídos no kit são proxies originais e provisórios. Os manuais de terceiros do ZIP de referência não fazem parte deste repositório nem da publicação.
-
-Veja [arquitetura](V.01/docs/ARQUITETURA.md), [changelog](V.01/docs/CHANGELOG.md), [backlog](V.01/docs/BACKLOG.md) e [testes](V.01/docs/TESTES.md).
+Veja [arquitetura](V.02/docs/ARQUITETURA.md), [changelog](V.02/docs/CHANGELOG.md), [backlog](V.02/docs/BACKLOG.md), [problemas](V.02/docs/PROBLEMAS.md) e [testes](V.02/docs/TESTES.md).
