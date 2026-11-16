@@ -1,0 +1,1152 @@
+[
+  {
+    "numero": 1,
+    "personagem": "pato cavaleiro",
+    "arquivo": "lote_01_patos_guerreiros/01_pato_cavaleiro.png",
+    "brief": "Pato Cavaleiro — courageous yellow duck, upside-down cooking-pot helmet, bent sword, saucepan-lid shield, absurdly overconfident grin, dynamic heroic lunge.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      138,
+      92,
+      886,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 2,
+    "personagem": "pato samurai",
+    "arquivo": "lote_01_patos_guerreiros/02_pato_samurai.png",
+    "brief": "Pato Samurai — very short rounded yellow duck in a simple kimono, comically oversized katana, intensely serious narrowed eyes, low poised stance.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      107,
+      932,
+      917
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 3,
+    "personagem": "pato pirata",
+    "arquivo": "lote_01_patos_guerreiros/03_pato_pirata.png",
+    "brief": "Pato Pirata — yellow duck with enormous pirate hat, eye patch and exaggerated hook, threatening yet ridiculous swagger.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      115,
+      92,
+      909,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 4,
+    "personagem": "pato ninja",
+    "arquivo": "lote_01_patos_guerreiros/04_pato_ninja.png",
+    "brief": "Pato Ninja — yellow duck in black face mask with two tiny daggers, trying to look stealthy despite comically huge webbed feet, crouched action pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      97,
+      92,
+      926,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 5,
+    "personagem": "pato viking",
+    "arquivo": "lote_01_patos_guerreiros/05_pato_viking.png",
+    "brief": "Pato Viking — yellow duck with oversized horned helmet, obviously fake red beard, very heavy hammer, stubborn battle yell.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      103,
+      92,
+      920,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 6,
+    "personagem": "pato boxeador",
+    "arquivo": "lote_01_patos_guerreiros/06_pato_boxeador.png",
+    "brief": "Pato Boxeador — tiny yellow duck body with enormous boxing gloves, stunned expression as if just punched, wobbly defiant stance.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      103,
+      932,
+      921
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 7,
+    "personagem": "pato cowboy",
+    "arquivo": "lote_01_patos_guerreiros/07_pato_cowboy.png",
+    "brief": "Pato Cowboy — yellow duck with disproportionate cowboy hat, gun belt and two obvious toy water pistols, dramatic duel pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      130,
+      932,
+      894
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 8,
+    "personagem": "pato gladiador",
+    "arquivo": "lote_01_patos_guerreiros/08_pato_gladiador.png",
+    "brief": "Pato Gladiador — yellow duck in improvised scrap armor, short spear, fierce furious expression, bold fighting stance.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      135,
+      92,
+      888,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 9,
+    "personagem": "pato monge",
+    "arquivo": "lote_01_patos_guerreiros/09_pato_monge.png",
+    "brief": "Pato Monge — yellow duck in plain monk robe with wooden staff, wildly exaggerated martial-arts pose and stern concentration.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      93,
+      92,
+      930,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 10,
+    "personagem": "pato tanque",
+    "arquivo": "lote_01_patos_guerreiros/10_pato_tanque.png",
+    "brief": "Pato Tanque — unusually robust yellow duck in bulky scrap-metal armor, immense metal shield, stubborn gritted-beak charge.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      171,
+      932,
+      853
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 11,
+    "personagem": "pato executivo",
+    "arquivo": "lote_02_patos_absurdos/11_pato_executivo.png",
+    "brief": "Pato Executivo — yellow duck in too-tight business suit, crooked red tie and giant briefcase, furious boss expression, brisk stomping pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      120,
+      932,
+      903
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 12,
+    "personagem": "pato chef",
+    "arquivo": "lote_02_patos_absurdos/12_pato_chef.png",
+    "brief": "Pato Chef — yellow duck in enormous chef hat and apron, wielding a frying pan overhead like a weapon, theatrical kitchen fury.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      125,
+      92,
+      899,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 13,
+    "personagem": "pato cientista maluco",
+    "arquivo": "lote_02_patos_absurdos/13_pato_cientista_maluco.png",
+    "brief": "Pato Cientista Maluco — yellow duck in lab coat, immense goggles, spiky feathers, holding a bubbling green flask, manic genius expression.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      169,
+      92,
+      855,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 14,
+    "personagem": "pato astronauta",
+    "arquivo": "lote_02_patos_absurdos/14_pato_astronauta.png",
+    "brief": "Pato Astronauta — yellow duck in compact improvised spacesuit, round helmet with visible beak, makeshift jetpack, awkward zero-gravity pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      124,
+      92,
+      900,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 15,
+    "personagem": "pato vampiro",
+    "arquivo": "lote_02_patos_absurdos/15_pato_vampiro.png",
+    "brief": "Pato Vampiro — yellow duck with black-and-red cape, tiny comic fangs, theatrical villain expression, cape flourish.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      101,
+      92,
+      923,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 16,
+    "personagem": "pato fantasma",
+    "arquivo": "lote_02_patos_absurdos/16_pato_fantasma.png",
+    "brief": "Pato Fantasma — duck hiding beneath a torn white bedsheet, glowing eyes and orange beak sticking out, fake haunting pose with webbed feet visible.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      131,
+      92,
+      893,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 17,
+    "personagem": "pato punk",
+    "arquivo": "lote_02_patos_absurdos/17_pato_punk.png",
+    "brief": "Pato Punk — yellow duck with colorful mohawk, dark jacket and mocking smirk, defiant pose with oversized webbed feet.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      202,
+      92,
+      821,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 18,
+    "personagem": "pato rei",
+    "arquivo": "lote_02_patos_absurdos/18_pato_rei.png",
+    "brief": "Pato Rei — yellow duck wearing a crown far too large, red cape, golden scepter, arrogant royal pose nearly tipping over.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      130,
+      92,
+      893,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 19,
+    "personagem": "pato detetive",
+    "arquivo": "lote_02_patos_absurdos/19_pato_detetive.png",
+    "brief": "Pato Detetive — yellow duck in beige trench coat and detective hat, enormous magnifying glass, comically suspicious stare.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      173,
+      92,
+      851,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 20,
+    "personagem": "pato rockeiro",
+    "arquivo": "lote_02_patos_absurdos/20_pato_rockeiro.png",
+    "brief": "Pato Rockeiro — yellow duck with messy hair, axe-shaped electric guitar, ecstatic rock-star performance pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      106,
+      92,
+      918,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 21,
+    "personagem": "pato bombeiro",
+    "arquivo": "lote_03_patos_especiais/21_pato_bombeiro.png",
+    "brief": "Pato Bombeiro — yellow duck in red firefighter helmet hauling an oversized hose, panicked expression and frantic action pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      149,
+      932,
+      875
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 22,
+    "personagem": "pato pescador",
+    "arquivo": "lote_03_patos_especiais/22_pato_pescador.png",
+    "brief": "Pato Pescador — yellow duck with fishing hat and crooked rod, old boot dangling from hook, disappointed deadpan expression.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      113,
+      932,
+      910
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 23,
+    "personagem": "pato palhaco sinistro",
+    "arquivo": "lote_03_patos_especiais/23_pato_palhaco_sinistro.png",
+    "brief": "Pato Palhaço Sinistro — yellow duck with red clown nose, gigantic clown shoes, hilariously unsettling grin, mischievous lurching pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      138,
+      92,
+      885,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 24,
+    "personagem": "pato ladrao",
+    "arquivo": "lote_03_patos_especiais/24_pato_ladrao.png",
+    "brief": "Pato Ladrão — yellow duck with black eye mask, coin sack larger than its body, furtive side-eye while struggling to drag loot.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      165,
+      932,
+      858
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 25,
+    "personagem": "pato mago",
+    "arquivo": "lote_03_patos_especiais/25_pato_mago.png",
+    "brief": "Pato Mago — yellow duck with pointed purple hat and robe, brandishing a kitchen spoon as magic wand, grandiose self-serious pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      98,
+      92,
+      926,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 26,
+    "personagem": "aspirador gladiador",
+    "arquivo": "lote_04_robos_domesticos/26_aspirador_gladiador.png",
+    "brief": "Aspirador Gladiador — round robot vacuum cleaner with furious expressive eyes, tiny sword and shield, absurd charging pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      139,
+      932,
+      885
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 27,
+    "personagem": "torradeira furiosa",
+    "arquivo": "lote_04_robos_domesticos/27_torradeira_furiosa.png",
+    "brief": "Torradeira Furiosa — metallic toaster robot with muscular arms, shooting two slices of toast from its slots, enraged face and short legs.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      107,
+      932,
+      917
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 28,
+    "personagem": "geladeira brutamontes",
+    "arquivo": "lote_04_robos_domesticos/28_geladeira_brutamontes.png",
+    "brief": "Geladeira Brutamontes — enormous refrigerator robot with strong arms, tiny legs and a scowling face, looming threateningly but awkwardly.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      143,
+      932,
+      881
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 29,
+    "personagem": "tv hipnotizadora",
+    "arquivo": "lote_04_robos_domesticos/29_tv_hipnotizadora.png",
+    "brief": "TV Hipnotizadora — vintage television robot with crooked antennae and sly expressive face on screen, beckoning pose, simplified screen swirl.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      249,
+      92,
+      775,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 30,
+    "personagem": "cafeteira insone",
+    "arquivo": "lote_04_robos_domesticos/30_cafeteira_insone.png",
+    "brief": "Cafeteira Insone — walking coffee machine robot with huge wide-awake eyes, jittering with too much energy, coffee pot body.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      167,
+      92,
+      856,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 31,
+    "personagem": "maquina lavar lutadora",
+    "arquivo": "lote_04_robos_domesticos/31_maquina_lavar_lutadora.png",
+    "brief": "Máquina de Lavar Lutadora — washing-machine robot with huge boxing gloves and spinning drum on chest, braced for a punch.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      135,
+      932,
+      888
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 32,
+    "personagem": "lixeira revoltada",
+    "arquivo": "lote_04_robos_domesticos/32_lixeira_revoltada.png",
+    "brief": "Lixeira Revoltada — metallic trash-can robot with jagged comical teeth in its lid opening and improvised arms, indignant attack pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      95,
+      932,
+      929
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 33,
+    "personagem": "impressora descontrolada",
+    "arquivo": "lote_04_robos_domesticos/33_impressora_descontrolada.png",
+    "brief": "Impressora Descontrolada — office printer robot firing a few sheets of paper like projectiles, crazed eyes, paper-tray mouth.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      150,
+      932,
+      874
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 34,
+    "personagem": "microondas maligno",
+    "arquivo": "lote_04_robos_domesticos/34_microondas_maligno.png",
+    "brief": "Micro-ondas Maligno — square microwave robot with threatening dark window face and short mechanical arms, smug villain stance.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      156,
+      932,
+      867
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 35,
+    "personagem": "ventilador nervoso",
+    "arquivo": "lote_04_robos_domesticos/35_ventilador_nervoso.png",
+    "brief": "Ventilador Nervoso — vintage desk-fan robot with huge blades, angry eyebrows and extremely thin legs, furious wobble.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      228,
+      92,
+      796,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 36,
+    "personagem": "drone atrapalhado",
+    "arquivo": "lote_05_robos_excentricos/36_drone_atrapalhado.png",
+    "brief": "Drone Atrapalhado — tiny four-propeller drone robot with one expressive eye, struggling to carry a gigantic dangling parcel, comic tilt.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      196,
+      92,
+      827,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 37,
+    "personagem": "caixa eletronico ganancioso",
+    "arquivo": "lote_05_robos_excentricos/37_caixa_eletronico_ganancioso.png",
+    "brief": "Caixa Eletrônico Ganancioso — ATM-shaped robot spitting coins and shielding its vault with both arms, greedy squint.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      120,
+      92,
+      903,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 38,
+    "personagem": "robo garcom",
+    "arquivo": "lote_05_robos_excentricos/38_robo_garcom.png",
+    "brief": "Robô Garçom — elegant waiter robot on a single wheel, wildly unbalanced serving tray, desperate expressive face.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      100,
+      92,
+      923,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 39,
+    "personagem": "robo acordeao",
+    "arquivo": "lote_05_robos_excentricos/39_robo_acordeao.png",
+    "brief": "Robô Acordeão — robot with retractable accordion-like bellows body and musical arms, dramatic performer expression and theatrical pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      105,
+      932,
+      919
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 40,
+    "personagem": "robo semaforo",
+    "arquivo": "lote_05_robos_excentricos/40_robo_semaforo.png",
+    "brief": "Robô Semáforo — tall vertical traffic-light robot with three expressive glowing red yellow green eyes and commanding arms, officious pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      229,
+      92,
+      795,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 41,
+    "personagem": "robo grampeador",
+    "arquivo": "lote_05_robos_excentricos/41_robo_grampeador.png",
+    "brief": "Robô Grampeador — tiny office stapler robot with enormous mechanical jaw, plucky menacing pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      135,
+      932,
+      889
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 42,
+    "personagem": "robo despertador",
+    "arquivo": "lote_05_robos_excentricos/42_robo_despertador.png",
+    "brief": "Robô Despertador — vintage alarm-clock robot with two bells on its head, short arms and hysterical screaming face.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      104,
+      932,
+      920
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 43,
+    "personagem": "robo maquina refrigerante",
+    "arquivo": "lote_05_robos_excentricos/43_robo_maquina_refrigerante.png",
+    "brief": "Robô Máquina de Refrigerante — vending-machine robot with sturdy legs, launching a few beverage cans as ammunition, defiant expression.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      118,
+      932,
+      905
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 44,
+    "personagem": "robo cortador grama",
+    "arquivo": "lote_05_robos_excentricos/44_robo_cortador_grama.png",
+    "brief": "Robô Cortador de Grama — compact lawnmower robot with giant wheels and funny metallic teeth, overzealous grin.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      178,
+      932,
+      846
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 45,
+    "personagem": "robo martelo pneumatico",
+    "arquivo": "lote_05_robos_excentricos/45_robo_martelo_pneumatico.png",
+    "brief": "Robô Martelo Pneumático — small construction robot body with enormous drilling arm, stubborn focused face and action pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      100,
+      92,
+      924,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 46,
+    "personagem": "robo polvo",
+    "arquivo": "lote_06_robos_especiais/46_robo_polvo.png",
+    "brief": "Robô Polvo — round metal-headed robot with four articulated tentacle-like arms, clever calculating villain expression.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      95,
+      92,
+      928,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 47,
+    "personagem": "robo guarda chuva",
+    "arquivo": "lote_06_robos_especiais/47_robo_guarda_chuva.png",
+    "brief": "Robô Guarda-chuva — tiny robot carrying a gigantic metal umbrella as a shield, peeking out with determined eyes.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      107,
+      92,
+      916,
+      932
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 48,
+    "personagem": "robo escavadeira",
+    "arquivo": "lote_06_robos_especiais/48_robo_escavadeira.png",
+    "brief": "Robô Escavadeira — anthropomorphic mini-excavator robot with immense shovel arm and arrogant squint, clanking swagger.",
+    "source_size": [
+      1312,
+      1199
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      127,
+      932,
+      896
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 49,
+    "personagem": "robo radio retro",
+    "arquivo": "lote_06_robos_especiais/49_robo_radio_retro.png",
+    "brief": "Robô Rádio Retrô — vintage radio robot with antenna, large knobs, flexible arms and smug broadcaster face, showman pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      96,
+      932,
+      928
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  },
+  {
+    "numero": 50,
+    "personagem": "rei da sucata",
+    "arquivo": "lote_06_robos_especiais/50_rei_da_sucata.png",
+    "brief": "Rei da Sucata — asymmetric boss robot assembled from improvised scrap, gear-made crown and a small smug face at its center, imposing yet ridiculous pose.",
+    "source_size": [
+      1254,
+      1254
+    ],
+    "output_size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      92,
+      106,
+      932,
+      917
+    ],
+    "transparent_corners": true,
+    "alpha_min": 0,
+    "alpha_max": 255
+  }
+]

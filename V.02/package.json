@@ -1,0 +1,10 @@
+{
+  "name": "duck-and-robots",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dev-server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
