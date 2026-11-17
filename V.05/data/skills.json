@@ -1,0 +1,721 @@
+{
+  "skill_01": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "randomAlly",
+        "atk": 1,
+        "hp": 1
+      }
+    ]
+  },
+  "skill_02": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "frontAlly",
+        "atk": {
+          "selfAtkPercent": 50
+        },
+        "hp": 0
+      }
+    ]
+  },
+  "skill_03": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "maxHpEnemy",
+        "amount": {
+          "targetCurrentHpPercent": 33,
+          "round": "floor",
+          "nonlethal": true
+        }
+      }
+    ]
+  },
+  "skill_04": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "reduceAtk",
+        "target": "firstEnemy",
+        "amount": 1
+      }
+    ]
+  },
+  "skill_05": {
+    "triggers": [
+      "ON_KILL"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 3,
+        "hp": 3
+      }
+    ],
+    "maxUses": 3
+  },
+  "skill_06": {
+    "triggers": [
+      "AFTER_ATTACK"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 2,
+        "hp": 0
+      }
+    ],
+    "maxUses": 1,
+    "condition": "selfAttacked"
+  },
+  "skill_07": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "lastEnemy",
+        "amount": 8
+      }
+    ]
+  },
+  "skill_08": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "nextTwoBehind",
+        "atk": 1,
+        "hp": 1
+      }
+    ]
+  },
+  "skill_09": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "frontAlly",
+        "atk": 2,
+        "hp": 2
+      }
+    ]
+  },
+  "skill_10": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "allAllies",
+        "atk": 0,
+        "hp": 3
+      }
+    ]
+  },
+  "skill_11": {
+    "triggers": [
+      "ON_ALLY_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "randomAlly",
+        "atk": 2,
+        "hp": 3
+      }
+    ],
+    "maxUses": 3
+  },
+  "skill_12": {
+    "triggers": [
+      "ON_PLACE"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "subject",
+        "atk": 1,
+        "hp": 0
+      }
+    ]
+  },
+  "skill_13": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "minHpEnemy",
+        "amount": 4
+      }
+    ]
+  },
+  "skill_14": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "summon",
+        "unit": {
+          "id": "mini_pato_astronauta",
+          "name": "Mini Pato Astronauta",
+          "atk": {
+            "selfAtkPercent": 50
+          },
+          "hp": 1,
+          "artFromActor": true
+        }
+      }
+    ]
+  },
+  "skill_15": {
+    "triggers": [
+      "ON_DAMAGE_TAKEN"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 3,
+        "hp": 0
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_16": {
+    "triggers": [
+      "ON_ALLY_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "summon",
+        "unit": {
+          "id": "espirito",
+          "name": "Espírito",
+          "atk": 4,
+          "hp": 4,
+          "artFromActor": true
+        }
+      }
+    ],
+    "maxUses": 3
+  },
+  "skill_17": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "allLiving",
+        "amount": 2
+      }
+    ]
+  },
+  "skill_18": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "firstAlly",
+        "atk": 2,
+        "hp": 2
+      }
+    ]
+  },
+  "skill_19": {
+    "triggers": [
+      "AFTER_ATTACK"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 1,
+        "hp": 1
+      }
+    ],
+    "condition": "frontAllyAttacked"
+  },
+  "skill_20": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "firstEnemy",
+        "amount": 7
+      }
+    ]
+  },
+  "skill_21": {
+    "triggers": [
+      "ON_DAMAGE_TAKEN"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "otherAllies",
+        "atk": 3,
+        "hp": 0
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_22": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "summon",
+        "unit": {
+          "id": "isca_de_pato",
+          "name": "Isca de Pato",
+          "atk": 1,
+          "hp": 1,
+          "artFromActor": true
+        }
+      }
+    ]
+  },
+  "skill_23": {
+    "triggers": [
+      "ON_ALLY_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "maxHpEnemy",
+        "amount": 4
+      }
+    ],
+    "condition": "allyAheadFainted",
+    "maxUses": 1
+  },
+  "skill_24": {
+    "triggers": [
+      "ON_PLACE"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 2,
+        "hp": 1
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_25": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "randomEnemy",
+        "amount": {
+          "selfAtkPercent": 50
+        }
+      }
+    ]
+  },
+  "skill_26": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "backAlly",
+        "atk": 0,
+        "hp": 2
+      }
+    ]
+  },
+  "skill_27": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "summon",
+        "unit": {
+          "id": "mini_torradeira",
+          "name": "Mini Torradeira",
+          "atk": 2,
+          "hp": 2,
+          "artFromActor": true
+        }
+      }
+    ]
+  },
+  "skill_28": {
+    "triggers": [
+      "ON_ALLY_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 2,
+        "hp": 2
+      }
+    ],
+    "maxUses": 3
+  },
+  "skill_29": {
+    "triggers": [
+      "BEFORE_DAMAGE"
+    ],
+    "actions": [
+      {
+        "type": "mitigate",
+        "amount": 3,
+        "damageKind": "skill"
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_30": {
+    "triggers": [
+      "ON_PLACE",
+      "ON_SUMMON"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "subject",
+        "atk": 0,
+        "hp": 2
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_31": {
+    "triggers": [
+      "ON_PLACE"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 1,
+        "hp": 1
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_32": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "reduceAtk",
+        "target": "firstEnemy",
+        "amount": 1
+      }
+    ]
+  },
+  "skill_33": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "firstAndLastEnemy",
+        "amount": 2
+      }
+    ]
+  },
+  "skill_34": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 0,
+        "hp": {
+          "selfMaxHpPercent": 50
+        }
+      }
+    ]
+  },
+  "skill_35": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "randomAlly",
+        "atk": 1,
+        "hp": 0
+      }
+    ]
+  },
+  "skill_36": {
+    "triggers": [
+      "ON_DAMAGE_TAKEN"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "backAlly",
+        "atk": 1,
+        "hp": 2
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_37": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "allAllies",
+        "atk": 2,
+        "hp": 2
+      }
+    ]
+  },
+  "skill_38": {
+    "triggers": [
+      "BEFORE_DAMAGE"
+    ],
+    "actions": [
+      {
+        "type": "mitigate",
+        "amount": 1,
+        "damageKind": "attack"
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_39": {
+    "triggers": [
+      "ON_SUMMON"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "subject",
+        "atk": 3,
+        "hp": 1
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_40": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "alliesAhead",
+        "atk": 0,
+        "hp": 1
+      },
+      {
+        "type": "buff",
+        "target": "alliesBehind",
+        "atk": 1,
+        "hp": 0
+      }
+    ]
+  },
+  "skill_41": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "randomAlly",
+        "atk": 1,
+        "hp": 1
+      }
+    ]
+  },
+  "skill_42": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "activeEnemyAndBackAlly",
+        "amount": {
+          "selfAtkPercent": 50
+        }
+      }
+    ]
+  },
+  "skill_43": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "summon",
+        "unit": {
+          "id": "mini_lata_2",
+          "name": "Mini Lata",
+          "atk": 2,
+          "hp": 2,
+          "artFromActor": true,
+          "skillId": "mini_lata_2"
+        }
+      }
+    ]
+  },
+  "skill_44": {
+    "triggers": [
+      "ON_DAMAGE_TAKEN"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "activeEnemy",
+        "amount": 3
+      }
+    ],
+    "maxUses": 3
+  },
+  "skill_45": {
+    "triggers": [
+      "ON_SUMMON"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "subject",
+        "atk": 2,
+        "hp": 2
+      }
+    ],
+    "maxUses": 1
+  },
+  "skill_46": {
+    "triggers": [
+      "AFTER_ATTACK"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "randomEnemy",
+        "amount": 6
+      }
+    ],
+    "condition": "selfAttacked"
+  },
+  "skill_47": {
+    "triggers": [
+      "ON_DAMAGE_TAKEN"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "randomAlly",
+        "atk": 3,
+        "hp": 3
+      }
+    ],
+    "maxUses": 2
+  },
+  "skill_48": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "killerEnemy",
+        "amount": {
+          "selfAtk": 100
+        }
+      }
+    ]
+  },
+  "skill_49": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "firstEnemy",
+        "amount": 10
+      }
+    ]
+  },
+  "skill_50": {
+    "triggers": [
+      "BEFORE_ATTACK"
+    ],
+    "actions": [
+      {
+        "type": "buff",
+        "target": "self",
+        "atk": 4,
+        "hp": 2
+      }
+    ],
+    "maxUses": 3,
+    "condition": "selfAttacked"
+  },
+  "mini_lata_2": {
+    "triggers": [
+      "ON_FAINT"
+    ],
+    "actions": [
+      {
+        "type": "summon",
+        "unit": {
+          "id": "mini_lata_1",
+          "name": "Mini Lata",
+          "atk": 1,
+          "hp": 1,
+          "artFromActor": true
+        }
+      }
+    ],
+    "maxUses": 1
+  }
+}

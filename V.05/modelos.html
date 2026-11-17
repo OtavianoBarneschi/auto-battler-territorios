@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171918">
+  <title>Ateliê de cartas — Ducks N Robots</title>
+  <link rel="stylesheet" href="./src/modelos.css">
+</head>
+<body>
+  <header class="masthead"><a class="wordmark" href="./index.html">DUCKS <i>N</i> ROBOTS<span>ESTÚDIO DE CARTAS</span></a><div class="edition">ESTUDO VISUAL <span>01 / V.05</span></div><a class="back" href="./index.html">Voltar ao jogo ↗</a></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">DIREÇÃO DE ARTE / EXPLORAÇÃO</p><h1>Uma coleção.<br><em>Cinco personalidades.</em></h1></div><div class="intro-note"><span class="small-cross">✳</span><p>A mesma dupla, sob cinco olhares.<br>Explore as molduras, os detalhes e a leitura.<br>A próxima direção começa aqui.</p><span class="status"><b></b>10 EXEMPLOS · ARTES E DADOS ORIGINAIS</span></div></section>
+    <nav class="toolbar" aria-label="Visualização dos modelos"><div class="filters"><button class="active" data-filter="all" aria-pressed="true">Todos os modelos</button><button data-filter="A" aria-pressed="false">A</button><button data-filter="B" aria-pressed="false">B</button><button data-filter="C" aria-pressed="false">C</button><button data-filter="D" aria-pressed="false">D</button><button data-filter="E" aria-pressed="false">E</button></div><label class="text-toggle"><input id="full-text" type="checkbox"> Exibir habilidades por extenso</label></nav>
+    <div id="gallery" class="gallery" aria-live="polite"><p>Carregando as cartas originais…</p></div>
+    <section class="legend" aria-label="Legenda"><strong>UMA LINGUAGEM COMUM</strong><div id="symbols"></div><p>Toque na habilidade para ler a regra completa. O número junto à raridade indica o rank, não o custo.</p></section>
+    <footer><span>DUCKS N ROBOTS <b> / </b> ATELIÊ 01</span><p>Exploração de 10 cartas. A coleção de 50 aguarda a escolha de um modelo.</p><span>V.05</span></footer>
+  </main>
+  <dialog id="skill-dialog" aria-labelledby="dialog-title"><button id="close-dialog" aria-label="Fechar detalhes">×</button><p class="eyebrow">DADOS ORIGINAIS DA CARTA</p><h2 id="dialog-title"></h2><div id="dialog-body"></div></dialog>
+  <script type="module" src="./src/modelos.mjs"></script>
+</body>
+</html>
