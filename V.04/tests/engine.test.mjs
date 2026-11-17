@@ -103,6 +103,18 @@ test('mortes simultâneas dos dois lados empatam a rodada', () => {
   assert.deepEqual(state.players.map(p => [p.lives, p.medals]), [[3, 0], [3, 0]]);
 });
 
+test('dez tipos são permitidos e a contagem atravessa as três zonas', () => {
+  const state = game(); state.phase = 'battle'; state.placements = emptyPlacements();
+  for (const [zone, start, count] of [['A', 0, 4], ['B', 4, 3], ['C', 7, 3]]) {
+    state.placements[zone][0] = Array.from({ length: count }, (_, i) => unit(`type${start + i}`, 0, start + i));
+    state.placements[zone][1] = [unit(`killer${zone}`, 1, 40 + start, 30, 99)];
+  }
+  const result = resolveBattle(state, byId, {}, fixed);
+  assert.equal(Object.keys(state.players[0].bench).length, 10);
+  assert.equal(result.overflow, null);
+  assert.equal(result.territories.length, 3);
+});
+
 test('Zona B desempata apenas quando vitórias em zonas são iguais', () => {
   const state = game(); state.phase = 'battle'; state.placements = emptyPlacements();
   state.placements.A = [[unit('strong', 0, 1, 8, 8)], [unit('weak', 1, 2, 1, 1)]];
@@ -120,6 +132,16 @@ test('rodada 8 segue sem adquirir cartas', () => {
   nextRound(state, cards, config, fixed);
   assert.equal(state.phase, 'placement'); assert.equal(state.round, 8);
   assert.deepEqual(state.players.map(p => p.deck.length), [9, 9]);
+});
+
+test('terceira vida perdida e sétima medalha encerram a partida', () => {
+  for (const scenario of ['lives', 'medals']) {
+    const state = game(); state.phase = 'battle';
+    state.players[scenario === 'lives' ? 0 : 1][scenario === 'lives' ? 'lives' : 'medals'] = scenario === 'lives' ? 1 : 6;
+    state.battle = { winner: 1, territories: [], wins: [0, 0], tiebreak: false, overflow: null };
+    applyRoundResult(state, config);
+    assert.equal(state.phase, 'gameover'); assert.equal(state.champion, 1);
+  }
 });
 
 test('partidas completas contra BOT terminam sem travar', () => {
