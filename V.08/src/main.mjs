@@ -149,7 +149,7 @@ function results(isOver) {
   </main>`;
 }
 function render() {
-  app.innerHTML = !game ? (location.pathname.endsWith('colecao.html') ? collection() : intro()) : game.phase === 'draft' ? draft() : game.phase === 'placement' ? placement() : game.phase === 'battle' ? battle() : results(game.phase === 'gameover');
+  app.innerHTML = !game ? (/\/colecao(?:\.html)?\/?$/.test(location.pathname) ? collection() : intro()) : game.phase === 'draft' ? draft() : game.phase === 'placement' ? placement() : game.phase === 'battle' ? battle() : results(game.phase === 'gameover');
   if (game?.phase === 'placement') {
     const drag = app.querySelector('.draggable');
     drag.addEventListener('dragstart', event => { event.dataTransfer.setData('text/plain', 'card'); event.dataTransfer.effectAllowed = 'move'; });
