@@ -1,0 +1,24 @@
+[
+  {
+    "id": "07",
+    "name": "Cowboy",
+    "rank": 5,
+    "atk": 8,
+    "hp": 4,
+    "skillId": "skill_07",
+    "skillDescription": "Início do combate: causa 8 de dano ao último inimigo da fila na zona.",
+    "artAsset": "assets/cartas/07_pato_cowboy.png",
+    "rarity": "Lendário"
+  },
+  {
+    "id": "49",
+    "name": "Rádio",
+    "rank": 6,
+    "atk": 9,
+    "hp": 3,
+    "skillId": "skill_49",
+    "skillDescription": "Início do combate: causa 10 de dano ao primeiro inimigo da zona.",
+    "artAsset": "assets/cartas/49_robo_radio_retro.png",
+    "rarity": "Mítico"
+  }
+]

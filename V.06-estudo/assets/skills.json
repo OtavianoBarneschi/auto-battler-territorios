@@ -1,0 +1,26 @@
+{
+  "skill_07": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "lastEnemy",
+        "amount": 8
+      }
+    ]
+  },
+  "skill_49": {
+    "triggers": [
+      "ON_BATTLE_START"
+    ],
+    "actions": [
+      {
+        "type": "damage",
+        "target": "firstEnemy",
+        "amount": 10
+      }
+    ]
+  }
+}

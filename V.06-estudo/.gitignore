@@ -1,0 +1,4 @@
+research/*.html
+__pycache__/
+*.pyc
+*.log
