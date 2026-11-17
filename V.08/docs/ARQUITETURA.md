@@ -1,0 +1,2 @@
+# Arquitetura V.08
+Motor e effects preservados da V.05, exceto VERSION. scripts/build-cards.py gera SVGs template para as 50 artes com escala uniforme a partir do bounding box alpha. src/impacto.mjs instancia máscaras únicas e números do estado atual; miniaturas têm composição própria. main.mjs controla consulta em dialog separado da árvore de render da batalha. PNGs originais intactos. Sem dependências de runtime.

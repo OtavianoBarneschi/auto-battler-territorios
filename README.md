@@ -1,11 +1,7 @@
 # DUCKS N ROBOTS
 
-Versão **V.05**: ateliê com cinco modelos de carta e dez amostras, preservando o jogo V.04 e as 50 ilustrações/dados.
+Versão V.08: Impacto aprovado aplicado às 50 cartas, miniaturas com redução óptica e consulta por clique/teclado. Arte, dados e motor de combate preservados.
 
-Compare em [modelos.html](https://auto-battler-territorios.pages.dev/modelos.html). O jogo continua em [index.html](https://auto-battler-territorios.pages.dev/). Consulte V.05/AUDITORIA.md para o status real de publicação.
+Jogar: https://auto-battler-territorios.pages.dev/ . Coleção: https://auto-battler-territorios.pages.dev/colecao.html .
 
-Local: `cd V.05` e `npm start` (Node 22+, sem dependências). Abra `/modelos.html` ou o link na tela inicial. `npm test` executa os testes; mantenha as versões anteriores como pastas irmãs para os checks de preservação.
-
-A: Galeria · B: Relíquia · C: Essência · D: Comando · E: Manifesto.
-
-A coleção aguarda a aprovação explícita de um modelo. Versões anteriores preservadas para rollback. Arquitetura, changelog, testes, limitações e próximos passos estão em V.05/docs.
+Local: cd V.08; npm start. Testes: npm test. Publicação pelo main na integração Git Cloudflare Pages, pasta V.08 conforme wrangler.toml. Histórico e versões anteriores preservados. Detalhes em V.08/docs e V.08/AUDITORIA.md.

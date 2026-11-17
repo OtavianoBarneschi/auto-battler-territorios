@@ -1,0 +1,2 @@
+# Limitações V.08
+A consulta congela os valores do instante em que foi aberta; a batalha segue executando. Base e valores atuais são identificados no painel. Invocações sem arte própria usam moldura vazia; invocações com artFromActor reutilizam a arte do ator. Não há paralaxe. O desenho mantém uma moldura comum para raridades; raridade está na consulta. O custo individual não é definido na base. Fontes gerais da interface ainda usam Google Fonts; os números usam Bungee local.

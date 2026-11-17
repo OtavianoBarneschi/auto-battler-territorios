@@ -1,0 +1,402 @@
+[
+  {
+    "id": "01",
+    "name": "Cavaleiro",
+    "sapEquivalent": "Ant",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "02",
+    "name": "Samurai",
+    "sapEquivalent": "Dodo",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "03",
+    "name": "Pirata",
+    "sapEquivalent": "Skunk",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "04",
+    "name": "Ninja",
+    "sapEquivalent": "Goose",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "05",
+    "name": "Viking",
+    "sapEquivalent": "Hippo",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "06",
+    "name": "Boxeador",
+    "sapEquivalent": "Bulldog",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "07",
+    "name": "Cowboy",
+    "sapEquivalent": "Crocodile",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "08",
+    "name": "Gladiador",
+    "sapEquivalent": "Flamingo",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "09",
+    "name": "Monge",
+    "sapEquivalent": "Giraffe",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "10",
+    "name": "Tanque",
+    "sapEquivalent": "Armadillo",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "11",
+    "name": "Executivo",
+    "sapEquivalent": "Spinosaurus",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "12",
+    "name": "Chef",
+    "sapEquivalent": "Bluebird",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "13",
+    "name": "Cientista",
+    "sapEquivalent": "Dolphin",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "14",
+    "name": "Astronauta",
+    "sapEquivalent": "Rooster",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "15",
+    "name": "Vampiro",
+    "sapEquivalent": "Peacock",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "16",
+    "name": "Fantasma",
+    "sapEquivalent": "Fly",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "17",
+    "name": "Punk",
+    "sapEquivalent": "Hedgehog",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "18",
+    "name": "Rei",
+    "sapEquivalent": "Monkey",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "19",
+    "name": "Detetive",
+    "sapEquivalent": "Kangaroo",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "20",
+    "name": "Rockeiro",
+    "sapEquivalent": "Hawk",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "21",
+    "name": "Bombeiro",
+    "sapEquivalent": "Piranha",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "22",
+    "name": "Pescador",
+    "sapEquivalent": "Cricket",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "23",
+    "name": "Palhaço",
+    "sapEquivalent": "Poison Dart Frog",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "24",
+    "name": "Ladrão",
+    "sapEquivalent": "Dog",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "25",
+    "name": "Mago",
+    "sapEquivalent": "Leopard",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "26",
+    "name": "Aspirador",
+    "sapEquivalent": "Cone Snail",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "27",
+    "name": "Torradeira",
+    "sapEquivalent": "Spider",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "28",
+    "name": "Geladeira",
+    "sapEquivalent": "Shark",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "29",
+    "name": "TV",
+    "sapEquivalent": "Ghost Kitten",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "30",
+    "name": "Cafeteira",
+    "sapEquivalent": "Sea Turtle",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "31",
+    "name": "Máquina de Lavar",
+    "sapEquivalent": "Jellyfish",
+    "sapTier": 2,
+    "rank": 2,
+    "rarity": "Incomum"
+  },
+  {
+    "id": "32",
+    "name": "Lixeira",
+    "sapEquivalent": "Ethiopian Wolf",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "33",
+    "name": "Impressora",
+    "sapEquivalent": "Hoopoe Bird",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "34",
+    "name": "Micro-ondas",
+    "sapEquivalent": "Eel",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "35",
+    "name": "Ventilador",
+    "sapEquivalent": "Horse",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "36",
+    "name": "Drone",
+    "sapEquivalent": "Camel",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "37",
+    "name": "Caixa Eletrônico",
+    "sapEquivalent": "Mammoth",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "38",
+    "name": "Garçom",
+    "sapEquivalent": "Fan Mussel",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "39",
+    "name": "Acordeão",
+    "sapEquivalent": "Turkey",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "40",
+    "name": "Semáforo",
+    "sapEquivalent": "Sealion",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "41",
+    "name": "Grampeador",
+    "sapEquivalent": "Fish",
+    "sapTier": 1,
+    "rank": 1,
+    "rarity": "Comum"
+  },
+  {
+    "id": "42",
+    "name": "Despertador",
+    "sapEquivalent": "Badger",
+    "sapTier": 3,
+    "rank": 3,
+    "rarity": "Raro"
+  },
+  {
+    "id": "43",
+    "name": "Máquina de Refrigerante",
+    "sapEquivalent": "Slug",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "44",
+    "name": "Cortador de Grama",
+    "sapEquivalent": "Blowfish",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "45",
+    "name": "Martelo Pneumático",
+    "sapEquivalent": "Clownfish",
+    "sapTier": 4,
+    "rank": 4,
+    "rarity": "Épico"
+  },
+  {
+    "id": "46",
+    "name": "Polvo",
+    "sapEquivalent": "Octopus",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "47",
+    "name": "Guarda-chuva",
+    "sapEquivalent": "Triceratops",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "48",
+    "name": "Escavadeira",
+    "sapEquivalent": "Stonefish",
+    "sapTier": 5,
+    "rank": 5,
+    "rarity": "Lendário"
+  },
+  {
+    "id": "49",
+    "name": "Rádio",
+    "sapEquivalent": "Mantis Shrimp",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  },
+  {
+    "id": "50",
+    "name": "Rei da Sucata",
+    "sapEquivalent": "Boar",
+    "sapTier": 6,
+    "rank": 6,
+    "rarity": "Mítico"
+  }
+]
