@@ -1,0 +1,25 @@
+name: Validate Ducks n Robots V.10
+on:
+  push:
+    branches:
+      - main
+      - preview/tech-industrial-v10
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript syntax
+        run: |
+          node --check V.10/src/main.mjs
+          node --check V.10/src/engine.mjs
+          node --check V.10/src/impacto.mjs
+          node --check V.10/src/rarity-frames.mjs
+      - name: Run V.10 tests
+        working-directory: V.10
+        run: node --test tests/*.test.mjs
