@@ -1,0 +1,13 @@
+{
+  "version": "V.11",
+  "base": "V.10",
+  "feature": "Estação de Reciclagem na loja",
+  "rules": {
+    "removalsPerShop": 1,
+    "price": 0
+  },
+  "backlog": [
+    "Campo de até 12 cartas / até 4 por zona",
+    "Evolução de duplicatas +1 ATK / +1 HP"
+  ]
+}

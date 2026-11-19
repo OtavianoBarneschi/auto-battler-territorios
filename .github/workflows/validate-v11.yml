@@ -1,0 +1,23 @@
+name: Validate Ducks n Robots V.11
+on:
+  push:
+    branches:
+      - main
+      - preview/deckbuilding-v11
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check syntax
+        run: |
+          node --check V.11/src/main.mjs
+          node --check V.11/src/engine.mjs
+      - name: Test engine and UI
+        working-directory: V.11
+        run: node --test tests/*.test.mjs
