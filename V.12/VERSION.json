@@ -1,0 +1,15 @@
+{
+  "version": "V.12",
+  "name": "MOBILE EXPERIENCE",
+  "base": "V.11",
+  "baseCommit": "f465ef7535dc464e95d5bc94518999286018d961",
+  "channel": "preview",
+  "rules": {
+    "removalsPerShop": 1,
+    "price": 0
+  },
+  "backlog": [
+    "Campo de até 12 cartas / até 4 por zona",
+    "Evolução de duplicatas +1 ATK / +1 HP"
+  ]
+}

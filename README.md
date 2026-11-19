@@ -1,7 +1,7 @@
 # DUCKS N ROBOTS
 
-Versão V.08: Impacto aprovado aplicado às 50 cartas, miniaturas com redução óptica e consulta por clique/teclado. Arte, dados e motor de combate preservados.
+A versão pública estável é a V.11, com Tech Industrial, cartas Impacto e Estação de Reciclagem. [Jogar em produção](https://auto-battler-territorios.pages.dev/)
 
-Jogar: https://auto-battler-territorios.pages.dev/ . Coleção: https://auto-battler-territorios.pages.dev/colecao.html .
+A branch `preview/mobile-experience-v12` contém a **V.12 — Mobile Experience**. [Abrir preview](https://preview-mobile-experience-v12.auto-battler-territorios.pages.dev/)
 
-Local: cd V.08; npm start. Testes: npm test. Publicação pelo main na integração Git Cloudflare Pages, pasta V.08 conforme wrangler.toml. Histórico e versões anteriores preservados. Detalhes em V.08/docs e V.08/AUDITORIA.md.
+Para executar localmente, abra `V.12` com Node 22+ e rode `npm start`. Use `npm test` para validar dentro do repositório. Auditoria, arquitetura e validação estão em `V.12/AUDITORIA.md` e `V.12/docs/`.

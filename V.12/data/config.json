@@ -1,0 +1,99 @@
+{
+  "version": "V.05",
+  "initial_cards": 9,
+  "bench_capacity": 10,
+  "starting_lives": 3,
+  "medals_to_win": 7,
+  "zones": [
+    "A",
+    "B",
+    "C"
+  ],
+  "draft": [
+    [
+      {
+        "count": 2,
+        "rank": 1
+      },
+      {
+        "count": 1,
+        "rank": 2
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "rank": 1
+      },
+      {
+        "count": 2,
+        "rank": 2
+      },
+      {
+        "count": 1,
+        "rank": 3
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "rank": 2
+      },
+      {
+        "count": 2,
+        "rank": 3
+      },
+      {
+        "count": 1,
+        "rank": 4
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "rank": 3
+      },
+      {
+        "count": 2,
+        "rank": 4
+      },
+      {
+        "count": 1,
+        "rank": 5
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "rank": 4
+      },
+      {
+        "count": 2,
+        "rank": 5
+      },
+      {
+        "count": 1,
+        "rank": 6
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "rank": 5
+      },
+      {
+        "count": 2,
+        "rank": 6
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "rank": null
+      }
+    ]
+  ],
+  "deck_remove_limit_per_shop": 1,
+  "deck_remove_min_cards": 1,
+  "deck_remove_cost": 0
+}

@@ -1,0 +1,22 @@
+name: Validate Ducks N Robots V.12
+
+on:
+  push:
+    branches: [main, preview/mobile-experience-v12]
+    paths: ['V.12/**', '.github/workflows/validate-v12.yml', 'wrangler.toml']
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: V.12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check src/main.mjs && node --check scripts/mobile-smoke.mjs
+      - run: npm test
