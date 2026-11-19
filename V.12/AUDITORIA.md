@@ -27,7 +27,7 @@ V.11 em `main` no commit `f465ef7535dc464e95d5bc94518999286018d961`. Conferênci
 
 Motor da V.11 preservado exceto pelo identificador. Dados, efeitos, geometria das cartas, molduras e PNGs verificados por comparação com a V.11. As 50 cópias WebP decodificam para os mesmos pixels RGBA. Campo de até 12 cartas e evolução de duplicatas continuam no backlog.
 
-Preview vinculado à branch `preview/mobile-experience-v12`. A entrada do ZIP registra o commit, a tag e a URL verificada. O endereço de produção serve a V.11 durante a aprovação. Para abandonar o teste basta manter a produção em `main`; os diretórios e deploys anteriores continuam disponíveis.
+Preview vinculado à branch `preview/mobile-experience-v12`. A entrada do ZIP registra o commit, a tag e o deploy correspondente. O endereço de produção serve a V.11 durante a aprovação. Os diretórios e deploys anteriores continuam disponíveis para rollback. [Abrir preview público](https://preview-mobile-experience-v1.auto-battler-territorios.pages.dev/)
 
 ## Desempenho observado
 
